@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:background="#000">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Login to Your Home"
+                  android:id="@+id/text"
+                  android:layout_alignParentTop="true"
+                  android:layout_centerHorizontal="true"
+                  android:padding="20dp"
+                  android:textColor="#ff00"
+                  android:textSize="30dp"
+        />
+        <ImageView
+                android:layout_width="200dp"
+                android:layout_height="500dp"
+                android:src="@drawable/map"
+                android:id="@+id/imageView"
+                android:layout_centerHorizontal="true"
+        />
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView"
+                android:orientation="vertical"
+                android:paddingLeft="100dp"
+                android:paddingRight="100dp"
+                android:layout_marginBottom="-41dp">
+            <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:inputType="text"
+                      android:hint="House name"
+                      android:layout_marginTop="8dp"
+                      android:layout_marginBottom="8dp"
+                      android:padding="20dp"
+                      android:id="@+id/username"
+                      android:textColorHint="#f2f2f2"
+                      android:textColor="#f2f2f2"
+            />
+            <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:layout_marginBottom="8dp"
+                    android:padding="20dp"
+                    android:hint="House words"
+                    android:textColorHint="#f2f2f2"
+                    android:textColor="#f2f2f2"
+                    />
+
+            <Button
+                    android:text="Enter"
+                    android:layout_width="205dp"
+                    android:layout_height="wrap_content" android:id="@+id/button"
+                    android:layout_centerHorizontal="true"
+                    />
+
+            <Button
+                    android:text="Exit"
+                    android:layout_width="205dp"
+                    android:layout_height="wrap_content" android:id="@+id/ebutton"
+                    android:layout_centerHorizontal="true"
+            />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

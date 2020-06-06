@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">G.O.T.</string>
+    <string-array name="lanBan">
+        <item>Radyll Tarly</item>
+        <item>Amory Lorch</item>
+        <item>Addam Marbrand</item>
+        <item>Harys Swyft</item>
+        <item>Leo Lefford</item>
+        <item>The Ghost of Harrenhal</item>
+    </string-array>
+    <string-array name="tarBan">
+        <item>Sunfyre, Aegon II Targaryen</item>
+        <item>Balerion, Aegon the Conqueror</item>
+        <item>Vhagar, Visenya</item>
+        <item>Meraxes, Rhaenys</item>
+        <item>Drogon, Daenerys</item>
+        <item>Rhaegal, Daenerys</item>
+        <item>Viserion, Daenerys</item>
+    </string-array>
+    <string-array name="starBan">
+        <item>Karstark</item>
+        <item>Umber</item>
+        <item>Flint</item>
+        <item>Mormont</item>
+        <item>Reed</item>
+        <item>Manderly</item>
+    </string-array>
+</resources>
